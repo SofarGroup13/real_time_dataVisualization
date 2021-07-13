@@ -38,7 +38,7 @@ This is the updated version of the previous folder. This folder contains a pytho
 
 The first thing to do, after having cloned the repository :
 
-Execute the following commands for Ros related Python libraries
+Execute the following commands for Python libraries
 
 ```
 sudo apt-update
