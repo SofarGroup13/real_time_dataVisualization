@@ -1,3 +1,0 @@
-1)First picture shows how GUI will look after initializing the ROS package or python script
-2)Second picture displays the address of each bag file, initialization of the timer and the progress bar after pressing the "PlayAll" button.
-Note: This GUI is only able to browse bag files i-e "file_name".bag 
