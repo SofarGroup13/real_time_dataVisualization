@@ -64,5 +64,5 @@ A video showing how our GUI visualizes the data can be found at the following li
 
 # Report
 
-A detailed description of the module can be found in the following report shared on Google Drive.
-[Report](https://github.com/SofarGroup13/dataset_visualization/blob/master/video.mp4)
+A detailed description of the module can be found in the following report.
+[Report](https://github.com/SofarGroup13/real_time_dataVisualization/blob/master/Project_13.pdf)
