@@ -21,22 +21,22 @@ In this section we will explain the repository's content
 
 This directory contains the doxygen documentation in "html" and "latex" format. For a clear and better idea of the project script and its detailed explanation, go to
 ```
-Documentation/html/index.html
+documentation/html/index.html
 
 ```
+# GUI pictures
+This folder contains images of our old and modified GUI. Also, the images of timeline and visualizing in the GUI.
 
-# Src
-This folder contains a python script for the initialization of the MainwWindow. It also contains a file by the name of "gui.ui" which is GUI created in Qt designer. For execution of the python script, both the python script and Qt designer file should be in the same directory.
+# GUI_Old
+This is the code developed by my one of our batchmate. This folder contains a python script for the initialization of the MainwWindow. It also contains a file by the name of "gui.ui" which is GUI created in Qt designer. But, it this only GUI has been designed. For execution of the python script, both the python script and Qt designer file should be in the same directory. 
 
+# GUI_updated
+This is the updated version of the previous folder. This folder contains a python script for the initialization of the MainwWindow. It also contains a file by the name of "updated_gui.ui" which is GUI created in Qt designer. But, in this only GUI has been designed. For execution of the python script, both the python script and Qt designer file should be in the same directory. The python script updated_gui.py has been modified to visualize the csv files using gui.py(previous folder). The files like, imu.csv is the csv data and ome other images which is  part of the code.
 
 # Installation
 
-The first thing to do, after having cloned the repository in the Ros workspace, is to build the package and install in order to make the files executable, using the following commands in the workspace:
 
-```
-catkin_make
-catkin_make install
-```
+The first thing to do, after having cloned the repository :
 
 Execute the following commands for Ros related Python libraries
 
@@ -52,7 +52,7 @@ sudo apt-get install python3-pyqt5
 To run the system:
 
 ```
-python3 gui.py
+python3 updated_gui.py
 ```
 This individual python script can also be run from and python Integrated Development Enviroment (IDE) but make sure to have project enviroment built accordingly with the required libraries installed i-e python and PyQt5 libraries
 
