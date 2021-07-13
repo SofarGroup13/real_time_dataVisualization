@@ -44,7 +44,6 @@ Execute the following commands for Ros related Python libraries
 sudo apt-update
 sudo apt install python3-pip
 sudo apt-get install python3-yaml	
-sudo pip3 install rospkg catkin-pkg 
 pip3 install --user pyqt5
 sudo apt-get install python3-pyqt5
 ```
@@ -58,8 +57,8 @@ This individual python script can also be run from and python Integrated Develop
 
 # Video Tutorial
 
-A video showing how our gui works can be found at the following link.
-[video](https://github.com/SofarGroup13/dataset_visualization/blob/master/video.mp4)
+A video showing how our gui visualizes the data can be found at the following link.
+[video](https://github.com/SofarGroup13/real_time_dataVisualization/blob/master/visualization_video.mp4)
 
 
 
