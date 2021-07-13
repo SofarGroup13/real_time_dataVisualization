@@ -1,12 +1,15 @@
 # DatasetVisualization
 This architecture will allow user to visualize the content of Dataset created by our team members.
+Here, we are using GUI to visulaize the data. Gui has three sub graphs to visualize the imu,mocap and point cloud data using CSV files.
+But, for instance, we have worked on IMU sensor data to visualize.
 
 # Authors 
-* Polaka Surendra : surishoba.surendra@gmail.com
-* Chetan Chand Chilakapati   : chetanchandc@gmail.com
+* Polaka Surendra : s4846909@studenti.unige.it
+* Chetan Chand Chilakapati   : s4850111@studenti.unige.it
+
 # Architecture of the System
 
-Datavisualization GUI is the overall graphical part of the visualization system where user can examine Ros bags i-e The already built dataset of three sensors (Kinect, SmartWatch, Motion Capture Sensor MOCAP) with their respective datatypes (PointCloud2, IMU, Float32). The GUI enable the user regarding the managing the configuration of Rosbags, let the user to keep the track of time through a timer and the executed percentage of the bag files via Progressbar. The progress bar contains scatter,Browse Button  which enables the User to connect GUI with the loaded  files.  GUI consist of three borwising options for the respective sensors, which allows the user to navigates through the system to a folder that contains the required bag files. Upon selecting, the path address will be displayed for an added certainty. After loading the bag files to the GUI, "Play" button will initiate the Processing of the files and Below each of the display window there is STOP button 
+Datavisualization GUI is the overall graphical part of the visualization system where user can examine Ros bags i-e The already built dataset of three sensors (Kinect, SmartWatch, Motion Capture Sensor MOCAP) with their respective datatypes (PointCloud2, IMU, Float32). The GUI enable the user regarding the managing the configuration of csv files, let the user to keep the track of time through a timer and the executed percentage of the csv files via Progressbar. The progress bar contains scatter,Browse Button  which enables the User to connect GUI with the loaded  files.  GUI consist of three borwising options for the respective sensors, which allows the user to navigates through the system to a folder that contains the required bag files. Upon selecting, the path address will be displayed for an added certainty. Also, to make the process simpler, we also added two extra buttons, one for brwosing and other for running. So, in this case, user need not access to each file. He can simply to click on "Add" icon and opens the file and then by clicking "play" button the data visualizes. Alos, Below each of the display window there is STOP button, and an exit button to end the GUI.
 
 
 ![image](https://user-images.githubusercontent.com/62186578/125333672-ceb53800-e34a-11eb-9af9-1827498895db.png)
