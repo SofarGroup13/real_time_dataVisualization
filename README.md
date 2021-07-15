@@ -27,6 +27,8 @@ documentation/html/index.html
 # GUI pictures
 This folder contains images of our old and modified GUI. Also, the images of the timeline and visualizing in the GUI.
 
+A video visulaizing the IMU data is named as visualizing _video.
+
 # GUI_Old
 This is the code developed by my one of our batchmate. This folder contains a python script for the initialization of the MainwWindow. It also contains a file by the name of "gui.ui" which is GUI created in Qt Designer. But, only GUI has been designed in this. For the execution of the python script, both the python script and Qt designer file should be in the same directory. 
 
