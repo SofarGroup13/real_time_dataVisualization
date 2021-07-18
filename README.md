@@ -14,9 +14,6 @@ Data visualization GUI is the overall graphical part of the visualization system
 
 ![image](https://user-images.githubusercontent.com/62186578/125333672-ceb53800-e34a-11eb-9af9-1827498895db.png)
 
-# Contents of the repository
-In this section, we will explain the repository's content
-
 # Documentation
 
 This directory contains the Doxygen documentation in "HTML" and "latex" format. For a clear and better idea of the project script and its detailed explanation, go to
