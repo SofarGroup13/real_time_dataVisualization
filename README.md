@@ -4,8 +4,8 @@ Here, we are using GUI to visualize the data. Gui has three subgraphs to visuali
 But, for instance, we have worked on IMU sensor data to visualize.
 
 # Authors 
-* Polaka Surendra : s4846909@studenti.unige.it
 * Chetan Chand Chilakapati   : s4850111@studenti.unige.it
+* Polaka Surendra : s4846909@studenti.unige.it
 
 # Architecture of the System
 
